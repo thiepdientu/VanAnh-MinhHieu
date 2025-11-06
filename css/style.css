@@ -3,7 +3,7 @@
 :root {
     --max-width : 1024px;
     /* color */
-    --primary-color : #e45959;
+    --primary-color : #33750b;
     --bg : #ffe7e7;
     --second-color : ;
     --text-white :#fff ; 
@@ -146,6 +146,10 @@ html {
 
 /* ========= ELEMENT ========== */
 
+.main-color-text {
+    color: #33750b !important;
+}
+
 .section-heading {
     display: grid
     ;
@@ -164,7 +168,7 @@ html {
 }
 .section-title {
    font-size: 30px;
-   font-family: var(--title-font);
+   font-family: var(--script-font);
 }
 .section-title-dark {
     
@@ -352,7 +356,7 @@ body {
 .banner-name {
     font-size: 36px;
     text-align: center;
-    font-family: var(--title-font);
+    font-family: var(--script-font);
     color: var(--text-white);
     opacity: .8;
 }
@@ -415,7 +419,7 @@ body {
     letter-spacing: 8px;
 }
 .about-data .bride_name, .about-data .groom_name {
-    font-family: var(--title-font);
+    font-family: var(--script-font);
     font-size: 40px;
     color: var(--primary-color);
 }
@@ -613,7 +617,7 @@ body {
     align-items: center;
     padding: 20px;
     gap: 12px;
-    background-color: #ffe9e9;
+    background-color: #05ab2c1f;
     border-radius: 12px;
     max-width: 100%;
     text-align: center;
@@ -787,6 +791,7 @@ body {
     }
     .banner-name {
         font-size: 64px;
+        font-family: var(--script-font) !important;
     }
     .about-card {
         grid-template-columns: repeat(2,40% 60%);
